@@ -6,15 +6,15 @@ export default function Header() {
       <img src="" alt="logomarca" />
       <nav>
         <ul>
-          <li>
-            <Link>Home</Link>
-          </li>
-          <li>
-            <Link>Novidades</Link>
-          </li>
-          <li>
-            <Link>Sobre</Link>
-          </li>
+        <li>
+                    <Link to="/">Home</Link>
+                </li>
+                <li>
+                    <Link to="/novidades">Novidades</Link>
+                </li>
+                <li>
+                    <Link to="/sobre">Sobre</Link>
+                </li>
         </ul>
       </nav>
     </header>
