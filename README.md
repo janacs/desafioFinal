@@ -1,8 +1,8 @@
-# React + Vite
+# Desafio Final - Vai na Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto final desenvolvido em React para a Escola Vai na Web.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Para construção da interface
+- **Vite**: Ferramenta para inicialização e execução do projeto
