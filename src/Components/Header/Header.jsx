@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <header>
-      <img src="" alt="logomarca" />
+      <img src="src\assets\images\logo.png" alt="logomarca" />
       <nav>
         <ul>
         <li>
