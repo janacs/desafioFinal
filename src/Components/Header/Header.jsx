@@ -1,23 +1,23 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { HeaderStyle } from "./style";
+import {HeaderStyle, StyleLink, Ul} from "./style";
 
 export default function Header() {
   return (
     <header>
       <img src="src\assets\images\logo.png" alt="logomarca" />
       <nav>
-        <ul>
-        <li>
-                    <Link to="/">Home</Link>
+        <Ul>
+                <li>
+                    <StyleLink to="/">Home</StyleLink>
                 </li>
                 <li>
-                    <Link to="/novidades">Novidades</Link>
+                    <StyleLink to="/novidades">Novidades</StyleLink>
                 </li>
                 <li>
-                    <Link to="/sobre">Sobre</Link>
+                    <StyleLink to="/sobre">Sobre</StyleLink>
                 </li>
-        </ul>
+        </Ul>
       </nav>
     </header>
   );
