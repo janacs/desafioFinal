@@ -3,7 +3,7 @@ import Header from "./Components/Header/Header"; // Componente de cabeçalho
 import Sobre from "./Components/Sobre/Sobre"; // Página "Sobre"
 import Home from "./Components/Home/Home"; // Página inicial
 import Novidades from "./Components/Novidades/Novidades"; // Página "Novidades"
-import { GlobalStyle } from "./global"; // Estilos globais aplicados ao projeto
+import { GlobalStyle } from "./Global.js"; // Estilos globais aplicados ao projeto
 import { Main } from "../src/Main/style"; // Estilo principal para o conteúdo
 
 export default function App() {
