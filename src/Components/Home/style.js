@@ -110,7 +110,19 @@ export const RodaDeCores = styled.div`
     right: -30%;
     width: 1000px;
     aspect-ratio: 1;
-    z-index: 1;
+    z-index: -1;
+
+    &.fundo-verde {
+        background-color: #037143; /* Fundo verde */
+    }
+
+    &.fundo-vermelho {
+        background-color: #97090C; /* Fundo vermelho */
+    }
+
+    &.fundo-amarelo {
+        background-color: #DECD13; /* Fundo amarelo */
+    }
 
     img {
         position: absolute;
@@ -123,37 +135,22 @@ export const RodaDeCores = styled.div`
         width: 600px;
         top: 45%;
         right: -20%;
-
-        img {
-            width: 50%;
-            right: 50%;
-            bottom: 50%;
-        }
     }
 
     @media (max-width: 900px) {
         width: 500px;
         top: 60%;
         right: -25%;
-
-        img {
-            width: 50%;
-            right: 50%;
-            bottom: 65%;
-        }
     }
 
     @media (max-width: 600px) {
         width: 300px;
         top: 80%;
         right: -20%;
-
-        img {
-            width: 50%;
-            right: 40%;
-        }
     }
 `;
+
+
 
 export const Copinhos = styled.figure`
     display: flex;
